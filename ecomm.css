@@ -1,0 +1,159 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+}
+
+header .search-bar button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Product Section */
+.product-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-section h2 {
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product .price {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product .add-to-cart {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.product .add-to-cart:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-logo h2 {
+    margin-bottom: 10px;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .footer-links ul li {
+    margin: 5px 0;
+}
+
+footer .footer-links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
